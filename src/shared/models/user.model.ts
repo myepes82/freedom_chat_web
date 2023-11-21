@@ -1,4 +1,4 @@
-import IUser from "../interfaces/user.type";
+import IUser from "../interfaces/user.interface";
 
 export default class User implements IUser {
     id: string;
