@@ -1,8 +1,7 @@
 nav{
-    background-color: #86A789;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    border-left: 1px solid #e0e0e0;
+    border-left: 2px solid #e0e0e0;
 }
 
 .user-image {
@@ -15,10 +14,41 @@ nav{
 .user-navbar {
     border-top-right-radius: 10px;
     width: 100%;
-    background-color: #495E57;
+    border-bottom: 2px solid #e0e0e0;
     height: 80px;
     display: flex;
     flex-direction: row;
     justify-content: end;
     align-items: center;
+}
+ol > li {
+    padding: 5px 10px;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border-bottom: 1px solid #F15656;
+}
+
+.user-search-box{
+    width: 100%;
+    background-color: #F15656;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.search-icon {
+    color: white;
+    margin: 0px 10px;
+}
+.user-search{
+    background-color: white;
+    border-radius: 10px;
+    width: 80%;
+    height: 25px;
+    font-weight: 400;
+    text-align: right;
+    padding: 0px  20px;
+    color: #aaaaaa;
 }
